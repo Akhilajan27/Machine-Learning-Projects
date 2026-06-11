@@ -1,5 +1,12 @@
 # 🤖 Machine Learning Projects Portfolio
 
+# 🤖 Machine Learning Projects Portfolio
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![GitHub Repo](https://img.shields.io/badge/GitHub-Portfolio-black)
+
 Welcome to my Machine Learning Projects repository 🚀  
 This repository contains end-to-end ML projects built using Python, Scikit-learn, and data science techniques.
 
