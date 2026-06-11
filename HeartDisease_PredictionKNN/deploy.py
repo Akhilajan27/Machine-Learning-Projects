@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import os
 from PIL import Image
 import numpy as np
 import plotly.graph_objects as go
@@ -96,8 +97,21 @@ img {
 """, unsafe_allow_html=True)
 
 # ---------------- LOAD MODEL ----------------
-model = pickle.load(open("model_knn.save1", "rb"))
-scaler = pickle.load(open("scaler_knn.save1", "rb"))
+
+
+
+BASE_DIR = os.path.dirname(__file__)
+
+model_path = os.path.join(BASE_DIR, "model_knn.save1")
+scaler_path = os.path.join(BASE_DIR, "scaler_knn.save1")
+
+if not os.path.exists(model_path):
+    raise FileNotFoundError(f"Model not found at {model_path}")
+
+model = pickle.load(open(model_path, "rb"))
+scaler = pickle.load(open(scaler_path, "rb"))
+#model = pickle.load(open("model_knn.save1", "rb"))
+#scaler = pickle.load(open("scaler_knn.save1", "rb"))
 
 # ---------------- HEADER ----------------
 st.markdown("""
@@ -110,7 +124,17 @@ AI Powered Healthcare Dashboard using Machine Learning (KNN)
 st.markdown("---")
 
 # ---------------- IMAGE ----------------
-image = Image.open(r"E:\Dataspark_project\HeartDisease_PredictionKNN\WhatsApp Image 2026-06-02 at 3.12.24 PM.jpeg")
+#image = Image.open(r"E:\Dataspark_project\HeartDisease_PredictionKNN\WhatsApp Image 2026-06-02 at 3.12.24 PM.jpeg")
+#st.image(image, use_container_width=True)
+
+BASE_DIR = os.path.dirname(__file__)
+
+image_path = os.path.join(
+    BASE_DIR,
+    "WhatsApp Image 2026-06-02 at 3.12.24 PM.jpeg"
+)
+
+image = Image.open(image_path)
 st.image(image, use_container_width=True)
 
 st.markdown("---")
