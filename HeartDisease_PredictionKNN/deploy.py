@@ -128,7 +128,7 @@ BASE_DIR = os.path.dirname(__file__)
 
 image_path = os.path.join(
     BASE_DIR,
-    "WhatsApp Image 2026-06-02 at 3.12.24 PM.jpeg"
+    "heart_image.jpeg"
 )
 
 image = Image.open(image_path)
