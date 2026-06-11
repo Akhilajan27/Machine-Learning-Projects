@@ -1,5 +1,7 @@
 streamlit>=1.40.0
 pandas>=2.0.0
-numpy>=1.24.0
+numpy==1.26.4
 scikit-learn==1.4.2
+scipy
 plotly>=5.20.0
+pillow

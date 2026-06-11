@@ -100,13 +100,10 @@ img {
 
 
 
-BASE_DIR = os.path.dirname(__file__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 model_path = os.path.join(BASE_DIR, "model_knn.save1")
 scaler_path = os.path.join(BASE_DIR, "scaler_knn.save1")
-
-if not os.path.exists(model_path):
-    raise FileNotFoundError(f"Model not found at {model_path}")
 
 model = pickle.load(open(model_path, "rb"))
 scaler = pickle.load(open(scaler_path, "rb"))
