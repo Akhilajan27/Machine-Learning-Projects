@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+
+# Python packaging
+*.egg-info/
+
+# Model files (optional - only if they're large or shouldn't be tracked)
+# model/*.pkl
+
+# Dataset (optional - uncomment if you don't want to upload datasets)
+# dataset/
