@@ -3,7 +3,7 @@
 An AI-powered web application that predicts whether a candidate is likely to be hired based on their profile, qualifications, experience, interview performance, and assessment scores using Machine Learning.
 
 <p align="center">
-  <img src="images/image.png" width="100%">
+  <img src="Images/image.png" width="100%">
 </p>
 
 <p align="center">
@@ -282,7 +282,7 @@ joblib
 
 ## 🏠 Home Page
 
-![Home](images/Home.png)
+![Home](Images/Home.png)
 
 ---
 
@@ -290,11 +290,11 @@ joblib
 
 ### Dashboard 1
 
-![Dashboard 1](images/Dashboard1.png)
+![Dashboard 1](Images/Dashboard1.png)
 
 ### Dashboard 2
 
-![Dashboard 2](images/Dashboard2.png)
+![Dashboard 2](Images/Dashboard2.png)
 
 ---
 
@@ -302,31 +302,31 @@ joblib
 
 ### Prediction 1
 
-![Prediction 1](images/Prediction1.png)
+![Prediction 1](Images/Prediction1.png)
 
 ### Prediction 2
 
-![Prediction 2](images/Prediction2.png)
+![Prediction 2](Images/prediction2.png)
 
 ### Prediction 3
 
-![Prediction 3](images/Prediction3.png)
+![Prediction 3](Images/Prediction3.png)
 
 ### Prediction 4
 
-![Prediction 4](images/Prediction4.png)
+![Prediction 4](Images/Prediction4.png)
 
 ---
 
 ## 📥 Download Report
 
-![Download](images/Download.png)
+![Download](Images/Download.png)
 
 ---
 
 ## 📈 Additional Insights
 
-![More Insights](images/MoreInsights.png)
+![More Insights](Images/Moreinsights.png)
 
 ---
 
