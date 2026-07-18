@@ -117,15 +117,15 @@ Candidate-Hiring-Prediction/
 │   ├── best_model.pkl
 │   └── scaler.pkl
 │
-├── images/
+├── Images/
 │   ├── image.png
 │   ├── Home.png
 │   ├── Dashboard1.png
 │   ├── Dashboard2.png
 │   ├── Download.png
-│   ├── MoreInsights.png
+│   ├── Moreinsights.png
 │   ├── Prediction1.png
-│   ├── Prediction2.png
+│   ├── prediction2.png
 │   ├── Prediction3.png
 │   └── Prediction4.png
 │
@@ -282,7 +282,7 @@ joblib
 
 ## 🏠 Home Page
 
-![Home](Images/Home.png)
+![Home](Images/Home.PNG)
 
 ---
 
@@ -290,11 +290,11 @@ joblib
 
 ### Dashboard 1
 
-![Dashboard 1](Images/Dashboard1.png)
+![Dashboard 1](Images/Dashboard1.PNG)
 
 ### Dashboard 2
 
-![Dashboard 2](Images/Dashboard2.png)
+![Dashboard 2](Images/Dashboard2.PNG)
 
 ---
 
@@ -302,31 +302,31 @@ joblib
 
 ### Prediction 1
 
-![Prediction 1](Images/Prediction1.png)
+![Prediction 1](Images/Prediction1.PNG)
 
 ### Prediction 2
 
-![Prediction 2](Images/prediction2.png)
+![Prediction 2](Images/prediction2.PNG)
 
 ### Prediction 3
 
-![Prediction 3](Images/Prediction3.png)
+![Prediction 3](Images/Prediction3.PNG)
 
 ### Prediction 4
 
-![Prediction 4](Images/Prediction4.png)
+![Prediction 4](Images/Prediction4.PNG)
 
 ---
 
 ## 📥 Download Report
 
-![Download](Images/Download.png)
+![Download](Images/Download.PNG)
 
 ---
 
 ## 📈 Additional Insights
 
-![More Insights](Images/Moreinsights.png)
+![More Insights](Images/Moreinsights.PNG)
 
 ---
 
